@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build tsconfig.json",
-    "lint": "npm run build && cd example && npm run lint",
-    "prepublishOnly": "npm run build && np --no-cleanup --yolo --any-branch"
+    "lint": "npm run build && cd example && npm run lint"
   },
   "repository": {
     "type": "git",
