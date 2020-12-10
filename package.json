@@ -1,6 +1,6 @@
 {
   "name": "blacklake-code-style-guide",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "code style guide",
   "main": "dist/index.js",
   "scripts": {
