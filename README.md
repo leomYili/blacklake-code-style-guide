@@ -10,7 +10,7 @@ in `.eslintrc.js`
 
 ```()
 module.exports = {
-  extends: [require.resolve('@blacklake-code-style-guide/fabric/dist/eslint')],
+  extends: [require.resolve('blacklake-code-style-guide/dist/eslint')],
 
   // in antd-design-pro
   globals: {
@@ -36,7 +36,7 @@ in `.stylelintrc.js`
 
 ```()
 module.exports = {
-  extends: [require.resolve('@blacklake-code-style-guide/dist/stylelint')],
+  extends: [require.resolve('blacklake-code-style-guide/dist/stylelint')],
   rules: {
     // your rules
   },
@@ -48,9 +48,9 @@ module.exports = {
 in `.prettierrc.js`
 
 ```()
-const fabric = require('@umijs/fabric');
+const fabric = require('blacklake-code-style-guide/dist/prettier');
 
 module.exports = {
-  ...fabric.prettier,
+  ...fabric,
 };
 ```
