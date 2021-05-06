@@ -36,11 +36,16 @@ module.exports = {
         "no-confusing-arrow": 0, // 禁止在可能与比较操作符相混淆的地方使用箭头函数
         "no-mixed-operators": 0, // 禁止混合使用不同的操作符
         "no-tabs": 0, // 禁用 tab
+        "no-lonely-if": 1,
+        "default-case": 1,
+        "prefer-const": 1,
         "no-unexpected-multiline": 0, // 禁止出现令人困惑的多行表达式
         "prefer-arrow-callback": 0, // 要求回调函数使用箭头函数
         "prefer-promise-reject-errors": 0, // 要求使用Error对象作为Promise拒绝的原因
         quotes: 0, // 强制使用一致的引号或双引号
         radix: 0,
+        "prefer-destructuring": 1,
+        "prefer-object-spread": 1,
 
         // Conflict with prettier
         "arrow-body-style": 0, // 要求箭头函数使用大括号
@@ -212,6 +217,7 @@ module.exports = {
         "react/jsx-props-no-multi-spaces": "off", // 不允许在内联JSX props之间使用多个空格
         "react/jsx-space-before-closing": "off", // 在JSX中关闭括号之前验证间距
         "react/jsx-tag-spacing": "off", // 验证JSX左右方括号内和周围的空格
+        "react/jsx-pascal-case": 1,
         "jsx-a11y/no-noninteractive-element-interactions": 0, // 不应为非交互式元素分配事件监听
         "jsx-a11y/click-events-have-key-events": 0, // 强制可单击的非交互式元素具有至少一个键盘事件监听
         "jsx-a11y/no-static-element-interactions": 0, // 强制<div>具有单击处理程序的非交互式可见元素（例如）使用role属性。
